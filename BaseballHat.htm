@@ -1,0 +1,79 @@
+<html>
+
+
+<body>
+<style>
+body {background-color: #222;
+font-family: trebuchet ms;
+color: #fff;
+margin: 5px;
+font-size: 11pt;
+line-height: 20pt;
+padding: 10px;}
+b,u,i {color: #00ffcc;}
+
+a, a:visited, a:link, a:active {color: #ffcc00; text-decoration:none;}
+a:hover {color: #ffcc00; text-decoration:none;}
+
+	#todo {
+  accent-color: #777;
+		 
+}
+
+#todo:checked+label {
+  color: #777;
+  padding: 0; 
+  margin: 0;
+  text-decoration: line-through;
+  &::before,
+  &::after {
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect 1px, 1px, 1px, 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  &::before {
+    content: "[start of stricken text]";
+  }
+  &::after {
+    content: "[end of stricken text]";
+  }
+</style>
+
+<b>Baseball Cap</b>
+  
+	<input type="checkbox" id="todo"><label for="todo">MR 12. Sl st to 1st st</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC2 around (24)</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC, inc (36)</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC2, inc (48)</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC3, inc (60)</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC 9, inc (66)</label><br>
+	DC around 7 rounds if necessary (7.5")<br>
+  <input type="checkbox" id="todo"><label for="todo">Round 1</label><br>
+  <input type="checkbox" id="todo"><label for="todo">Round 2</label><br>
+   <input type="checkbox" id="todo"><label for="todo">Round 3</label><br>
+   <input type="checkbox" id="todo"><label for="todo">Round 4</label><br>
+   <input type="checkbox" id="todo"><label for="todo">Round 5</label><br>
+   <input type="checkbox" id="todo"><label for="todo">Round 6</label><br>
+   <input type="checkbox" id="todo"><label for="todo">Round 7</label><br>
+
+  <input type="checkbox" id="todo"><labeL>Leave last 7 sts open, turn, ch 2, dc around to space</labeL><br>
+  <input type="checkbox" id="todo"><label>Ch 7, sl to ch, DC around </label>
+
+  <br><br>
+
+	Brim:<br>
+	<input type="checkbox" id="todo"><label for="todo">DC across widest part</label><br>
+	<input type="checkbox" id="todo"><label for="todo">DC across ch, 2dc in last ch (slipknot), DC acround</label><br><br>
+ <input type="checkbox" id="todo"><label for="todo">2DC in last ch. SS to top of ch</label><br>
+   <input type="checkbox" id="todo"><label for="todo">2DC in last ch. SS to top od ch.</label><br>
+ <input type="checkbox" id="todo"><label for="todo">DC without increase until edge</label><br>
+ <input type="checkbox" id="todo"><label for="todo">Ch 3 (1) <b>DC 4,</b> turn. Ch1, sk 1, <b>DC1,</b> dec, <b>ch 1,</b> sk 1, DC</label><br><br>
+  
+	<a href="Javascript:history.back(-1)">Back</a>
+ </body>
+ </html>
