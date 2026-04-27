@@ -14,6 +14,33 @@ b,u,i {color: #00ffcc;}
 
 a, a:visited, a:link, a:active {color: #ffcc00; text-decoration:none;}
 a:hover {color: #ffcc00; text-decoration:none;}
+
+	#todo {
+  accent-color: #777
+}
+
+#todo:checked+label {
+  color: #777;
+  padding: 15px;
+  margin: 15px;
+  text-decoration: line-through;
+  &::before,
+  &::after {
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect 1px, 1px, 1px, 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  &::before {
+    content: "[start of stricken text]";
+  }
+  &::after {
+    content: "[end of stricken text]";
+  }
 </style>
 
 <a href="https://www.tiktok.com/@kendallm1_/video/7539762016114789687">TUTORIAL: BASEBALL CAP</a><br><br>
