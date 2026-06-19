@@ -1,0 +1,64 @@
+<html>
+
+<style>
+body {background-color: #ccc;
+margin: 5px;
+padding: 5px;
+font-family: verdana;
+font-size: 10pt;
+line-height: 12pt;
+color: #777;
+#todo {
+  accent-color: #777
+}
+
+#todo:checked+label {
+  color: #777;
+  padding: 15px;
+  margin: 15px;
+  text-decoration: line-through;
+  &::before,
+  &::after {
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect 1px, 1px, 1px, 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  &::before {
+    content: "[start of stricken text]";
+  }
+  &::after {
+    content: "[end of stricken text]";
+  }
+}
+</style>
+<body>
+<head><title>RAVE HAT</title></head>
+SS to 1st st. Ch 1. Each row ends with one less st.<br><br>
+
+  <ol>
+    <li>
+<input type="checkbox" id="todo"><label for="todo">1) MR 12 DC</label><br></li>
+<li>  <input type="checkbox" id="todo"><label for="todo">2) DC inc (24)</label><br></li>
+<li> <input type="checkbox" id="todo"> <label for="todo">DC, inc (36)</label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC2, inc (48)</label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC3, inc (60)</label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC4, inc (72)</label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC </label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC </label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC </label><br></li>
+  <li> <input type="checkbox" id="todo"> <label for="todo">DC </label><br><br></li>
+  BRIM<br>
+   <input type="checkbox" id="todo"> <label for="todo">DC, lol9</label><br>
+   <input type="checkbox" id="todo"> <label for="todo">DC, lol10</label><br>
+    </ol>
+</form>
+
+
+
+</body>
+</html>
